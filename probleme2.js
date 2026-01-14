@@ -63,7 +63,7 @@ function note(n) {
         return " echoue"
     }
         
-    if (n>20 && n<0) {
+    if (n>20 || n<0) {
         return "le nombre doit etre entre 20-0"
     }
     
