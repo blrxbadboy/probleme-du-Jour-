@@ -59,7 +59,7 @@ function note(n) {
         return "reussi"
         
     }
-    if (n<10) {
+    if (n<10 && n>=0) {
         return " echoue"
     }
         
