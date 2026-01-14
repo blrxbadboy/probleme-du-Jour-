@@ -3,12 +3,13 @@
 function valeur(n) {
     if (n > 0) {
         return "positif"
-    } else { if (n===0) {
+    }
+    if (n===0) {
         return "zero"
         
     }
         
-    }
+    
     return "negatif"
 }
 
@@ -20,11 +21,12 @@ function div(n) {
     if (n % 3 === 0) {
         return "divisible par 3"
         
-    } else { if (n % 5 === 0) {
+    }
+    if (n % 5 === 0) {
         return "divisible par 5"
     }
         
-    }
+    
     return "autre"
 }
 
@@ -38,12 +40,13 @@ function PG(n1,n2) {
     if (n1>n2) {
         return n1
         
-    } else {if (n2>n1) {
+    }
+    if (n2>n1) {
         return n2
         
     }
         
-    }
+    
     return n1
 }
 
@@ -55,11 +58,12 @@ function note(n) {
     if (n>=10) {
         return "reussi"
         
-    } else { if (n<10) {
+    }
+    if (n<10) {
         return " echoue"
     }
         
-    }
+    
     return "le nombre doit etre entre 20-0"
 }
 
