@@ -9,7 +9,7 @@ function jour(h) {
         return "matin"
         
     }
-    if (h>12 && h<18) {
+    if (h<18) {
         return "apres-midi"
         
     }
@@ -45,11 +45,11 @@ function score(n) {
 
 
 function petit(n1,n2,n3) {
-    if (n1>n2 && n1>n3) {
+    if (n1<n2 && n1<n3) {
         return n1
         
     }
-    if (n2>n1 && n2>n3) {
+    if (n2<n1 && n2<n3) {
         return n2
         
     }
