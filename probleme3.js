@@ -9,7 +9,7 @@ function jour(h) {
         return "matin"
         
     }
-    if (h<18) {
+    if (h<=18) {
         return "apres-midi"
         
     }
