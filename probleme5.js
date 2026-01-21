@@ -31,7 +31,7 @@ function num(n) {
 // 3- Crée une fonction qui prend un nombre et affiche "Bonjour" ce nombre de fois avec while.
 
 function bnjr(n) {
-    while (n>=0) {
+    while (n>0) {
         console.log("bonjour");
         n=n-1
         
