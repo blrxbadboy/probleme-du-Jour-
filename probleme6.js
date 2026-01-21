@@ -19,7 +19,7 @@ function factorielleN(n) {
 function afficheMultiplesDe3(n) {
     var count=0
     while (count<=n) {
-        if (i%3===0) {
+        if (count%3===0) {
             console.log(count);
             
             
