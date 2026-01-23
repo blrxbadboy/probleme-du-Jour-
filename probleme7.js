@@ -44,10 +44,13 @@ function afficheNombreImpa(n) {
 // 4- Écris une fonction afficheMotInverse qui prend une chaîne de caractères et affiche les lettres dans l’ordre inverse.
 
 function afficheMotInverse(ch) {
+    var result=""
     for (var i = ch.length-1; i>=0; i--) {
-        console.log(ch[i]);
+        result+=ch[i]
+        
         
         
     }
+    console.log(result);
     
 }
