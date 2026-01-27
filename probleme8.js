@@ -24,8 +24,7 @@ function inverse(ch) {
 
 
 // 3- Crée une fonction pour supprimer le dernier élément d’un tableau et le retourner sans itérer
-function supptab() {
-    var tab=[1,2,3,4,5]
+function supptab(tab) {
     tab.pop()
     return tab
     
@@ -34,8 +33,7 @@ function supptab() {
 
 
 // 4- Crée une fonction pour supprimer le premier élément d’un tableau et le retourner sans itérer
-function supptab2() {
-    var tab=[1,2,3,4,5]
+function supptab2(tab) {
     tab.shift()
     return tab
     
