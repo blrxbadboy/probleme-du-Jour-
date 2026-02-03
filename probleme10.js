@@ -1,7 +1,20 @@
  // 1 - Écris une fonction nommée removeElement qui prend un tableau et une valeur
  // en paramètres et retourne un nouveau tableau avec la première occurrence
  // de cette valeur supprimée. Si la valeur n’est pas trouvée, retourne le tableau original.
+function removeE(tab,v) {
+    var newTab=[]
+    
 
+    for (var i = 0; i < tab.length; i++) {
+        if (tab[i]===v) {
+
+            
+        }
+        
+    }
+
+    
+}
 
 
 
@@ -9,7 +22,20 @@
  // en entrée et retourne l’inverse de chaque lettre suivie d’un nombre
  // en commençant par zéro (à résoudre avec une boucle while).
  // exemple : reverseStr('hello'); ==> "o0l1l2e3h4"
+function reverseStr(str) {
+    var res=""
+    var i=str.length - 1
+    var count=0
+    while (i>=0) {
+        res=res+str[i]+ count
+        i=i-1
+        count=count +1
 
+        
+    }
+    return res
+    
+}
 
 
 
