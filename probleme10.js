@@ -43,7 +43,14 @@ function reverseStr(str) {
  //  et retourne un tableau contenant les clés de l’objet.
  // objKey({name:'ahmed', age:20}) ==> ['name','age']
 
-
+function objKey(obj) {
+    var newTab=[]
+    if (key in obj) {
+        
+        
+    }
+    
+}
 
 // 4- Prends un tableau et supprime chaque deuxième élément de ce tableau.
 // Garde toujours le premier élément et commence à supprimer à partir de l’élément suivant.
