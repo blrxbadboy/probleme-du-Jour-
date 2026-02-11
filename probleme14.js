@@ -34,7 +34,12 @@ function map(array, func) {
 // var strArr = ['hello', 'world', 'whirled', 'peas'];
 // uppercaseAll(strArr); ==> [ 'HELLO', 'WORLD', 'WHIRLED', 'PEAS' ]
 
-function uppercaseAll(arrayOfStrings) {
+function uppercaseAll(tab) {
+  return map(tab,function (el) {
+    return el.toUpperCase()
+    
+  })
+
 }
 
 //=============================================================================
@@ -66,7 +71,11 @@ var data = [
 ];
 // highestPopulation(data); ==> [{country: "China", population: 1409517397},{country: "India", population: 1339180127}]
 
-function highestPopulation(arrayOfObjects) {
+function highestPopulation(tab) {
+  return filter(tab,function (el) {
+    return el.population >500000000
+    
+  })
 }
 
 //=============================================================================
@@ -79,7 +88,10 @@ function highestPopulation(arrayOfObjects) {
 // var numsArray = [2, 6, 20, 8, 14];
 // halveAll(numsArray); ==> [ 1, 3, 10, 4, 7 ]
 
-function halveAll(numbers) {
+function halveAll(tab) {
+  return map(tab,function (n) {
+    return n/2
+  })
 }
 
 //=============================================================================
@@ -92,6 +104,12 @@ function halveAll(numbers) {
 // values({first : 5, second: 'something' , third : 129}) ==> [5, 'something', 129];
 
 function values(obj) {
+  var tab=[]
+  each(obj,function (el) {
+    tab.push(el)
+    
+  })
+return tab
 }
 
 //=============================================================================
@@ -102,5 +120,15 @@ function values(obj) {
 // Résolvez cela en utilisant l'une des fonctions utilitaires les plus appropriées (each, map, filter).
 // shortestString(["hii","s","longest","hi"]) ==> "s"
 
-function shortestString(strings) {
+function shortestString(tab) {
+  var min=tab[0]
+  each(tab,function (el) {
+    if (el.length < min.length) {
+      min=el
+      
+    }
+
+    
+  })
+  return min
 }
