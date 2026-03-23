@@ -9,7 +9,7 @@
 //etape 1:parcourir le tableau avec un boucle 
 //etape 2:utilise un compteur pour les nombre de occurence 
 //etape 3:parcourir pour trouver une reccurence
-//etape 4:verifier si le nombre et pair ou non ainsi que la occurence
+//etape 4:verifier si le nombre occurence est pair ainsi que le nombre != 0
 //etape 5:return le resultat a partir de la verification null/nombre
 
 var evenOccurrence = function(arr) {
@@ -24,7 +24,7 @@ var evenOccurrence = function(arr) {
       
       
     }
-    if (arr[i]%2===0 && count %2==0) {
+    if (count!=0 && count %2==0) {
       return arr[i]
       
     }
