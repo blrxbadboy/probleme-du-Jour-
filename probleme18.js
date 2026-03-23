@@ -7,9 +7,9 @@
  * console.log(onlyEven); // 4
  */
 //etape 1:parcourir le tableau avec un boucle 
-//etape 2:utilise un compteur pour les nombre de reccurence 
+//etape 2:utilise un compteur pour les nombre de occurence 
 //etape 3:parcourir pour trouver une reccurence
-//etape 4:verifier si le nombre et pair ou non ainsi que la reccurence
+//etape 4:verifier si le nombre et pair ou non ainsi que la occurence
 //etape 5:return le resultat a partir de la verification null/nombre
 
 var evenOccurrence = function(arr) {
